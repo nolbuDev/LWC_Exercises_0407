@@ -1,11 +1,12 @@
 {
 	"orgName": "AW Computing",
 	"edition": "Developer",
-    "settings": {
-        "lightningExperienceSettings": {
+	"settings": {
+		"lightningExperienceSettings": {
 			"enableS1DesktopEnabled": true
-        },
-        "mobileSettings": {
-        }
-    }
+		},
+		"mobileSettings": {
+			"enableS1EncryptedStoragePref2": false
+		}
+	}
 }
