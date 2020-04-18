@@ -29,6 +29,11 @@
 					>
 					</lightning-combobox>
 				</lightning-layout-item>
+
+				<!--Add New Delivery button (enabled if instrucor selected)-->
+				<lightning-layout-item padding="around-small">
+					<lightning-button variant="brand" disabled={isButtonDisabled} label="Add New Delivery" onclick={onAddNewDelivery}> </lightning-button>
+				</lightning-layout-item>
 			</lightning-layout>
 		</lightning-card>
 	</div>
