@@ -55,6 +55,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>StudentBrowser</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StudentBrowserForm</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>UsersData</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -289,6 +297,10 @@
     <tabVisibilities>
         <tab>Certification__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Challenge_Page</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Course_Delivery__c</tab>
